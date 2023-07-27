@@ -1,0 +1,44 @@
+/* Navbar.css */
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    /* Light gray background color */
+    padding: 16px;
+    color: #333;
+    /* Dark gray text color */
+}
+
+.Navbar h1 {
+    font-size: 24px;
+}
+
+.Navbar a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 18px;
+    transition: opacity 0.3s ease;
+}
+
+.Navbar a:hover {
+    opacity: 0.7;
+}
+
+.Navbar .Navbar-button {
+ 
+    /* Dark gray background color for the Logout button */
+    color: #333;;
+    /* White text color for the Logout button */
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Navbar .Navbar-button:hover {
+    background-color: #555;
+    /* Slightly darker gray background color on hover */
+}

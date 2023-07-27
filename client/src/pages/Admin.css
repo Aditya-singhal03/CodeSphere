@@ -1,0 +1,18 @@
+.Admin-option{
+    background-color: rgb(83, 81, 81);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Admin-option button{
+    background: none;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: medium;
+}
+
+.Admin-option button:hover{
+    border: 1px solid white;
+}

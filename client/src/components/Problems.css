@@ -1,0 +1,58 @@
+/* Problems.css */
+.problems-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Problems {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    text-decoration: none;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+}
+
+thead th {
+    background-color: #f0f0f0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #007bff; /* Set the button color to blue (same as the navbar) */
+  color: white; /* Set the text color to white for better contrast */
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+.Problems a {
+    text-decoration: none;
+    color: #007bff;
+    /* Set the link color to blue (same as the navbar) */
+}

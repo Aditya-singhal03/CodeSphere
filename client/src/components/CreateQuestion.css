@@ -1,0 +1,63 @@
+.Create-Question {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Create-Question form {
+  display: grid;
+  gap: 15px;
+}
+
+.Create-Question h3 {
+  margin: 5px 0;
+}
+
+.Create-Question textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: vertical;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Create-Question button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Create-Question button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .Create-Question {
+    max-width: 90%;
+  }
+}
+
+.Create-Question select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Create-Question select option {
+    padding: 10px;
+    font-size: 16px;
+}

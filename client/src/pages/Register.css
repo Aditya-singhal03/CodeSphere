@@ -1,0 +1,61 @@
+.container {
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Register {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 80%;
+}
+
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.toggle-conatiner {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.toggle-conatiner span {
+    margin-bottom: 5px;
+}
+
+.toggle-container label {
+    display: flex;
+    display: block;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.toggle-container input[type="radio"] {
+    margin-right: 5px;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
