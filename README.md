@@ -38,7 +38,7 @@ Follow the steps below to start the project locally:
         git clone https://github.com/Aditya-singhal03/CodeSphere.git
    2. Pull the aditya/code-runner image from Docker Hub:
       - ```bash
-        docker pull jassi16/code-runner
+        docker pull aditya03singhal/codesphere03:latest
    3. Start the RabbitMQ server. Make sure it is running and accessible.
    4. Start the Server :
       - Navigate to the `server` directory:
